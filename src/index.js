@@ -8,7 +8,7 @@ import './index.css';
 
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('container'));
 const store = createStore(counter);
 
 root.render(
